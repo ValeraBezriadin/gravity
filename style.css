@@ -202,12 +202,13 @@ width: 600px;
  }
  .use__image{
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   top: 100px;
   left: 0;
  }
  .use__image-help{
   margin-top: 100px;
+  z-index: 1;
  }
  .use__inner{
   display: flex;
